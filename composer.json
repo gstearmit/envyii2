@@ -1,15 +1,18 @@
 {
-    "name": "vlucas/phpdotenv",
+    "name": "gstearmit/envyii2",
     "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
     "keywords": ["env", "dotenv", "environment"],
-    "license" : "BSD-3-Clause-Attribution",
-    "authors" : [
+    "homepage": "https://github.com/gstearmit/envyii2.git",
+    "license": "MIT",
+    "authors": [
         {
-            "name": "Vance Lucas",
-            "email": "vance@vancelucas.com",
-            "homepage": "http://www.vancelucas.com"
+            "name": "gstearmit",
+            "email": "gstearmit@gmail.com"
         }
     ],
+    "minimum-stability": "stable",
+
+
     "require": {
         "php": ">=5.3.9"
     },
