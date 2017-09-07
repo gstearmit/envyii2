@@ -1,4 +1,4 @@
-PHP dotenv
+PHP env
 ==========
 
 Loads environment variables from `.env` to `getenv()`, `$_ENV` and
@@ -9,9 +9,12 @@ Installation with Composer
 
 ```shell
 curl -s http://getcomposer.org/installer | php
-php composer.phar require vlucas/phpdotenv
+php composer.phar require  gstearmit/envyii2
 ```
-
+or 
+    composer  require  "gstearmit/envyii2": "dev-master"
+    
+    
 Usage
 -----
 The `.env` file is generally kept out of version control since it can contain
